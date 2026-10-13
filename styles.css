@@ -96,7 +96,7 @@ body {
     min-width: 0;
 }
 
-.plan-text h2 {
+.plan-text h3 {
     margin-bottom: 4px;
     font-size: 16px;
     line-height: 1.4;
@@ -115,12 +115,15 @@ body {
     flex-shrink: 0;
     font-size: 14px;
     font-weight: 700;
+}
+
+.change-link a {
     color: var(--bright-blue);
     text-decoration: underline;
     transition: color 0.2s ease;
 }
 
-.change-link:hover {
+.change-link a:hover {
     color: hsl(245, 83%, 68%);
     text-decoration: none;
 }
@@ -160,7 +163,7 @@ body {
     color: var(--dark-blue);
 }
 
-.change-link:focus-visible,
+.change-link a:focus-visible,
 .cancel-order:focus-visible,
 .proceed-btn:focus-visible {
     outline: 3px solid #7b72ff;
@@ -224,7 +227,7 @@ body {
         height: 42px;
     }
 
-    .plan-text h2,
+    .plan-text h3,
     .plan-text p {
         font-size: 14px;
     }

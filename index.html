@@ -19,10 +19,7 @@
             <div class="content">
                 <h1 class="heading">Order Summary</h1>
 
-                <p class="summary-para">
-                    You can now listen to millions of songs, audiobooks,
-                    and podcasts on any device anywhere you like!
-                </p>
+                <p class="summary-para">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 
                 <div class="plan-box">
                     <img
@@ -32,11 +29,13 @@
                     >
 
                     <div class="plan-text">
-                        <h2>Annual Plan</h2>
+                        <h3>Annual Plan</h3>
                         <p>$59.99/year</p>
                     </div>
 
-                    <a class="change-link" href="#">Change</a>
+                    <div class="change-link">
+                        <a href="#">Change</a>
+                    </div>
                 </div>
 
                 <button class="proceed-btn" type="button">
@@ -54,7 +53,7 @@
     </main>
 
     <script>
-        document.querySelector(".change-link").addEventListener("click", function(event) {
+        document.querySelector(".change-link a").addEventListener("click", function(event) {
             event.preventDefault();
         });
 
